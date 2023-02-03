@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        //String line = scanner.nextLine();
+        String line = scanner.nextLine();
         StringReverser reverser = new StringReverser() {
 
 
@@ -19,6 +19,6 @@ public class Main {
                 return out;
             }
         };
-        System.out.println(reverser.reverse("Line"));
+        System.out.println(reverser.reverse(line));
     }
 }
